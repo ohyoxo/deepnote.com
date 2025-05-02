@@ -2,7 +2,7 @@
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
 # export TOK=${TOK:-'xccxx'}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
-# export ARG_DOMAIN=${ARG_DOMAIN:-'xxx'} # 隧道域名
+# export DOM=${DOM:-'xxx'} # 隧道域名
 
 # 哪吒相关设置
 export NSERVER=${NSERVER:-''}
@@ -11,7 +11,7 @@ export NPORT=${NPORT:-'443'}
 export NTLS=${NTLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
-export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，sock,3x
+export XIEYI=${XIEYI:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，sock,3x
 #export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机，去掉#可设置固定UUID
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口 (token隧道设置，json不用设置，会自动识别)
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口 (token隧道设置，json不用设置，会自动识别)
